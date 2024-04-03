@@ -6,7 +6,7 @@ This demo project showcases automation best practices for mobile & web using the
 5. Selenium 4.x or any newer version
 6. ReportNG (new and improved - https://github.com/sdrss/reportNG?tab=readme-ov-file)
 
-To run from terminal, mvn clean test -Dthreads=<number of devices/browsers> -Dsuites=src/test/resources/Unified.xml
+To run from terminal using Maven, mvn clean test -Dthreads=<number of devices/browsers> -Dsuites=src/test/resources/Unified.xml
 
 _The intent of this project is for illustration purposes only. The code can be freely used and modified as needed._
 
