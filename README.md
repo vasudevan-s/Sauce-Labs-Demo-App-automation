@@ -8,5 +8,5 @@ This demo project showcases automation best practices for mobile & web using the
 
 To run from terminal using Maven, mvn clean test -Dthreads=<number of devices/browsers> -Dsuites=src/test/resources/Unified.xml
 
-_The intent of this project is for illustration purposes only. The code can be freely used and modified as needed._
+_The intent of this project is for illustrative purposes only. The code can be freely used and modified as needed._
 
