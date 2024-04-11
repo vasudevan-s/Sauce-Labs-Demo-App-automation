@@ -1,4 +1,6 @@
 This demo project showcases automation best practices for mobile & web using the following open source tools:
+(Automating Sauce Labs iOS and Android demo app)
+
 1. TestNG
 2. Apache Maven
 3. Java 21 (can be used with any Java version starting with 8).
