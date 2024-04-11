@@ -14,10 +14,12 @@ Created By: Vasudevan Sampath
  */
 public class ProductTests {
     private ProductsPage productsPage;
+
     @BeforeClass(alwaysRun = true)
     public void initClass(ITestContext testContext) {
         productsPage = new ProductsPage();
     }
+
     @Test(priority = 2, description = "Select a random product from the product list, add 1 or more of the " +
                                         "selected product and check the count test")
     public void validateAddProductsToCartCountTest() throws Exception {
