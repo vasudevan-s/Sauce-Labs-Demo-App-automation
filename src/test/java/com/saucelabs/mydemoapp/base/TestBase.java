@@ -1,10 +1,10 @@
-package org.example.appname.base;
+package com.saucelabs.mydemoapp.base;
 
-import org.example.appname.config.DriverConfigurator;
-import org.example.appname.config.IDriverConfig;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import pro.vasudevan.config.DriverConfigurator;
+import pro.vasudevan.config.IDriverConfig;
 
 /*
 Created By: Vasudevan Sampath

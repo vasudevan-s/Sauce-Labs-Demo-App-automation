@@ -1,4 +1,4 @@
-package org.example.appname.data;
+package com.saucelabs.mydemoapp.data;
 
 import org.testng.annotations.DataProvider;
 

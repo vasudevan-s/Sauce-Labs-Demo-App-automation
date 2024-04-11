@@ -4,11 +4,22 @@
 <!-- Created By: Vasudevan Sampath -->
 
 <suite name="App Suite" parallel="false" thread-count="1" verbose="10" >
-    <test name="Smoke" enabled="true">
+
+    <listeners>
+        <listener class-name="pro.vasudevan.listeners.SuiteListener"/>
+        <listener class-name="pro.vasudevan.listeners.TestListener"/>
+    </listeners>
+
+    <listeners>
+        <listener class-name="pro.vasudevan.listeners.SuiteListener"/>
+        <listener class-name="pro.vasudevan.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Smoke-Edge" enabled="true">
         <parameter name="browserName" value="msedge"/>
         <parameter name="launchURL" value="http://www.apple.com"/>
         <classes>
-            <class name="org.example.appname.suites.smoke.WebTests"/>
+            <class name="com.saucelabs.mydemoapp.suites.smoke.WebTests"/>
         </classes>
     </test>
 
@@ -16,7 +27,7 @@
         <parameter name="browserName" value="firefox"/>
         <parameter name="launchURL" value="http://www.apple.com"/>
         <classes>
-            <class name="org.example.appname.suites.smoke.WebTests"/>
+            <class name="com.saucelabs.mydemoapp.suites.smoke.WebTests"/>
         </classes>
     </test>
 </suite>

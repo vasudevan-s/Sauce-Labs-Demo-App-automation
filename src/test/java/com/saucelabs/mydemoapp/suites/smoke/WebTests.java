@@ -1,15 +1,19 @@
-package org.example.appname.suites.smoke;
+package com.saucelabs.mydemoapp.suites.smoke;
 
-import org.example.appname.base.TestBase;
-import org.example.appname.pages.Web.WelcomePage;
+import com.saucelabs.mydemoapp.base.TestBase;
+import com.saucelabs.mydemoapp.pages.web.WelcomePage;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class WebTests extends TestBase {
-    private WelcomePage welcomePage;
+/*
+Created By: Vasudevan Sampath
 
+ WebTests.java has test methods for the web application
+ */
+public class WebTests {
+    private WelcomePage welcomePage;
     @BeforeClass(alwaysRun = true)
     public void initClass(ITestContext testContext) {
         welcomePage = new WelcomePage();
