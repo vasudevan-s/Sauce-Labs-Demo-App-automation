@@ -4,6 +4,8 @@ import com.saucelabs.mydemoapp.objectrepository.AppObjectRepository;
 import pro.vasudevan.misc.Common;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.stream.Stream;
+
 /*
 Created By: Vasudevan Sampath
 
@@ -15,8 +17,6 @@ public class AuthPage extends AppObjectRepository {
             bottomMenuItem.click();
             loginMenuItem.click();
             loginIdAutoFill.click();
-            Common.takeScreenshot();
-            //       Stream.of(login).forEach(singleChar -> loginId.sendKeys(singleChar));
             signIn.click();
         }
     }
