@@ -3,7 +3,7 @@ package com.saucelabs.mydemoapp.base;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import pro.vasudevan.config.IDriverConfig;
+import pro.vasudevan.config.IWebDriverConfig;
 
 /*
 Created By: Vasudevan Sampath
@@ -13,12 +13,12 @@ Created By: Vasudevan Sampath
 public class TestBase {
 
     @BeforeTest(alwaysRun = true)
-    protected void setup(ITestContext testContext) {
-        IDriverConfig.initDriver(testContext);
+    protected void setup(ITestContext testContext) throws InterruptedException {
+        IWebDriverConfig.initDriver(testContext);
     }
 
     @AfterTest(alwaysRun = true)
     protected final void cleanup() {
-        IDriverConfig.tearDown();
+        IWebDriverConfig.tearDown();
     }
 }

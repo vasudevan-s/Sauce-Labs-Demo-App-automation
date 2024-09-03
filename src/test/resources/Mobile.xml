@@ -3,7 +3,7 @@
 
 <!-- Created By: Vasudevan Sampath -->
 
-<suite name="App Suite" parallel="tests" thread-count="3" verbose="1" >
+<suite name="App Suite" parallel="tests" thread-count="2" verbose="1" >
 
     <test name="RealDevice-iPhoneX" enabled="false">
         <parameter name="deviceName" value="iPhone"/>
@@ -14,13 +14,14 @@
         <parameter name="platformName" value="iOS"/>
         <classes>
             <class name="com.saucelabs.mydemoapp.suites.smoke.AuthTests"/>
+            <class name="com.saucelabs.mydemoapp.suites.smoke.ProductTests"/>
         </classes>
     </test>
 
-    <test name="Simulator-Regression-iPad-Pro" enabled="true">
-        <parameter name="deviceName" value="iPad Pro (12.9-inch) (6th generation)"/>
-        <parameter name="udid" value="83DA5881-6BBF-45E1-8A74-8996F952FEA2"/>
-        <parameter name="platformVersion" value="17.4"/>
+    <test name="Simulator-Regression-iPad-Pro-13" enabled="true">
+        <parameter name="deviceName" value="iPad Pro 13-inch (M4)"/>
+        <parameter name="udid" value="E5382FE2-54BD-45B7-BF50-8578EF1AA448"/>
+        <parameter name="platformVersion" value="17.5"/>
         <parameter name="automationName" value="xcuitest"/>
         <parameter name="bundleId" value="com.saucelabs.mydemoapp.rn"/>
         <parameter name="platformName" value="iOS"/>
@@ -30,13 +31,14 @@
 -->
         <classes>
             <class name="com.saucelabs.mydemoapp.suites.smoke.AuthTests"/>
+            <class name="com.saucelabs.mydemoapp.suites.smoke.ProductTests"/>
         </classes>
     </test>
 
-    <test name="Simulator-Regression-iPad-Mini" enabled="true">
-        <parameter name="deviceName" value="iPad mini (6th generation)"/>
-        <parameter name="udid" value="9400005C-F4BC-41D9-99DC-7773192DC802"/>
-        <parameter name="platformVersion" value="17.4"/>
+    <test name="Simulator-Regression-iPad-Pro-10" enabled="false">
+        <parameter name="deviceName" value="iPad Pro (10th generation)"/>
+        <parameter name="udid" value="1E3FA290-FBC6-4AC5-B509-4153969701F3"/>
+        <parameter name="platformVersion" value="17.5"/>
         <parameter name="automationName" value="xcuitest"/>
         <parameter name="bundleId" value="com.saucelabs.mydemoapp.rn"/>
         <parameter name="platformName" value="iOS"/>
@@ -46,13 +48,14 @@
         -->
         <classes>
             <class name="com.saucelabs.mydemoapp.suites.smoke.AuthTests"/>
+            <class name="com.saucelabs.mydemoapp.suites.smoke.ProductTests"/>
         </classes>
     </test>
 
     <test name="Simulator-Regression-iPhone" enabled="true">
         <parameter name="deviceName" value="iPhone 15 Pro Max"/>
-        <parameter name="udid" value="D2D7C185-7856-4245-824E-C2BB70265580"/>
-        <parameter name="platformVersion" value="17.4"/>
+        <parameter name="udid" value="898EF132-394C-44F1-BCD4-8E03E4DD95C7"/>
+        <parameter name="platformVersion" value="17.5"/>
         <parameter name="automationName" value="xcuitest"/>
         <parameter name="bundleId" value="com.saucelabs.mydemoapp.rn"/>
         <parameter name="platformName" value="iOS"/>
