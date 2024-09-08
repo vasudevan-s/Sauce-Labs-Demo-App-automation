@@ -20,7 +20,7 @@
 
     <test name="Simulator-Regression-iPad-Pro-13" enabled="true">
         <parameter name="deviceName" value="iPad Pro 13-inch (M4)"/>
-        <parameter name="udid" value="E5382FE2-54BD-45B7-BF50-8578EF1AA448"/>
+        <parameter name="udid" value="2E8A5FB0-433A-41E4-91BF-6F247FDAD0A1"/>
         <parameter name="platformVersion" value="17.5"/>
         <parameter name="automationName" value="xcuitest"/>
         <parameter name="bundleId" value="com.saucelabs.mydemoapp.rn"/>
@@ -54,7 +54,7 @@
 
     <test name="Simulator-Regression-iPhone" enabled="true">
         <parameter name="deviceName" value="iPhone 15 Pro Max"/>
-        <parameter name="udid" value="898EF132-394C-44F1-BCD4-8E03E4DD95C7"/>
+        <parameter name="udid" value="A1C5CDE0-8C39-4857-96C8-137CFA0809A0"/>
         <parameter name="platformVersion" value="17.5"/>
         <parameter name="automationName" value="xcuitest"/>
         <parameter name="bundleId" value="com.saucelabs.mydemoapp.rn"/>
