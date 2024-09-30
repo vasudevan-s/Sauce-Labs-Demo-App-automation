@@ -2,7 +2,7 @@ package com.saucelabs.mydemoapp.objectrepository;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import pro.vasudevan.config.IWebDriverConfig;
+import pro.vasudevan.automation.unifiedtestframework.config.IWebDriverConfig;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.PageFactory;

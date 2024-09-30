@@ -13,7 +13,9 @@ Created By: Vasudevan Sampath
  LoginTests.java has test methods for the mobile app login screen
  */
 public class AuthTests extends TestBase {
+
     private AuthPage authPage;
+
     @BeforeClass(alwaysRun = true)
     public void initClass(ITestContext testContext) {
         authPage = new AuthPage();

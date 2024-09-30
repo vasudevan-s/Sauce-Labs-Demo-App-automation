@@ -1,7 +1,7 @@
 package com.saucelabs.mydemoapp.pages.mobile;
 
 import com.saucelabs.mydemoapp.objectrepository.AppObjectRepository;
-import pro.vasudevan.misc.Common;
+import pro.vasudevan.automation.unifiedtestframework.misc.Common;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.stream.Stream;
